@@ -1,0 +1,10 @@
+{
+  "chromeWebSecurity": false,
+  "viewportWidth": 1400,
+  "projectId": "<YOUR_PROJECT_ID>",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/results/test-output.xml",
+    "toConsole": true
+  }
+}
