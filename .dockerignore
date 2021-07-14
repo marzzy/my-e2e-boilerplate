@@ -1,0 +1,24 @@
+#Config files
+run_host_project.sh
+#cypress.env.json
+cypress.env_EXAMPLE.json
+
+# Dependency directory
+node_modules
+cypress/integration/examples
+cypress/videos
+cypress/screenshots
+cypress/results
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage
+.nyc_output
