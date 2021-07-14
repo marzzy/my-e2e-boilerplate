@@ -2,9 +2,9 @@ version: 2.1
 orbs:
   cypress: cypress-io/cypress@1
 executors:
-  base10-env:
+  base14-env:
     docker:
-      - image: 'cypress/base:10'
+      - image: 'cypress/base:14.16.0'
     environment:
       CYPRESS_HOST: <HOST>
       CYPRESS_RECORD_KEY: <ADD_YOUR_KEY>
@@ -12,5 +12,5 @@ workflows:
   build:
     jobs:
       - cypress/run:
-          executor: base10-env
+          executor: base14-env
           record: true
